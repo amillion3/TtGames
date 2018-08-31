@@ -6,7 +6,7 @@ namespace TtGames
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var TonyWonderAKABenStiller = new TonyWonder.TonyWonder();
         }
     }
 }
