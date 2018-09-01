@@ -4,10 +4,11 @@ namespace TtGames.BaseType
 {
     abstract class BaseType
     {
-        private readonly string _name;
-        private readonly bool _hat;
-        private readonly string _sex;
-        private readonly int _height;
+        // protected allows derived classes access to these fields
+        protected readonly string _name;
+        protected readonly bool _hat;
+        protected readonly string _sex;
+        protected readonly int _height;
 
         public BaseType(string name, bool hat, string sex, int height)
         {
@@ -19,17 +20,17 @@ namespace TtGames.BaseType
 
         public void Jump()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(_name + " Jumps!");
         }
 
         public void Attack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(_name + " Attacks!");
         }
 
         public void Run()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(_name + " Runs!");
         }
 
         // must be overridden in derived class

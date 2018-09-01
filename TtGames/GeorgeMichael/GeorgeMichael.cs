@@ -9,7 +9,8 @@ namespace TtGames.GeorgeMichael
 
         public override void SpecialPower(string power)
         {
-            Console.WriteLine(power);
+            // _name is from BaseType and accessible because of `protected`
+            Console.WriteLine(_name + " has the special power of " + power);
             Console.ReadLine();
         }
     }
