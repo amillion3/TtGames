@@ -35,7 +35,7 @@ namespace TtGames.BaseType
         // must be overridden in derived class
         public virtual void SpecialPower(string power)
         {
-            Console.WriteLine("override this");
+            Console.WriteLine("");
         }
     }
 }

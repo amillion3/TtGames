@@ -11,7 +11,9 @@ namespace TtGames
             var GeorgeMichaelAKAMichaelCera = new GeorgeMichael.GeorgeMichael();
             var GobBluthAKAWillArnett = new GobBluth.GobBluth();
 
-            TonyWonderAKABenStiller.SpecialPower("Magic000");
+            Console.WriteLine("What is Tony Wonder's special power?");
+            var powerTonyWonder = Console.ReadLine();
+            TonyWonderAKABenStiller.SpecialPower(powerTonyWonder);
         }
     }
 }
