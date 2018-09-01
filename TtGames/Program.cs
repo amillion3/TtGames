@@ -13,7 +13,20 @@ namespace TtGames
 
             Console.WriteLine("What is Tony Wonder's special power?");
             var powerTonyWonder = Console.ReadLine();
+
+            Console.WriteLine("What is Tobias Funke's special power?");
+            var powerTobiasFunke = Console.ReadLine();
+
+            Console.WriteLine("What is George Michael's special power?");
+            var powerGeorgeMichael = Console.ReadLine();
+
+            Console.WriteLine("What is Gob Bluth's special power?");
+            var powerGobBluth = Console.ReadLine();
+
             TonyWonderAKABenStiller.SpecialPower(powerTonyWonder);
+            TobiasFunkeAKADavidCross.SpecialPower(powerTobiasFunke);
+            GeorgeMichaelAKAMichaelCera.SpecialPower(powerGeorgeMichael);
+            GobBluthAKAWillArnett.SpecialPower(powerGobBluth);
         }
     }
 }

@@ -9,7 +9,8 @@ namespace TtGames.GobBluth
 
         public override void SpecialPower(string power)
         {
-            base.SpecialPower("Magic");
+            Console.WriteLine(power);
+            Console.ReadLine();
         }
     }
 

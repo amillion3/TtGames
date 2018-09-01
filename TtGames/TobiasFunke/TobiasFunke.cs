@@ -9,7 +9,8 @@ namespace TtGames.TobiasFunke
 
         public override void SpecialPower(string power)
         {
-            base.SpecialPower("Obliviousness");
+            Console.WriteLine(power);
+            Console.ReadLine();
         }
     }
 }

@@ -9,7 +9,8 @@ namespace TtGames.GeorgeMichael
 
         public override void SpecialPower(string power)
         {
-            base.SpecialPower("Charm");
+            Console.WriteLine(power);
+            Console.ReadLine();
         }
     }
 }
