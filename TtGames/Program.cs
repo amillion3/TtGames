@@ -23,9 +23,15 @@ namespace TtGames
             Console.WriteLine("What is Gob Bluth's special power?");
             var powerGobBluth = Console.ReadLine();
 
+            TonyWonderAKABenStiller.Jump();
             TonyWonderAKABenStiller.SpecialPower(powerTonyWonder);
+            TobiasFunkeAKADavidCross.Attack();
             TobiasFunkeAKADavidCross.SpecialPower(powerTobiasFunke);
+            GeorgeMichaelAKAMichaelCera.Run();
             GeorgeMichaelAKAMichaelCera.SpecialPower(powerGeorgeMichael);
+            GobBluthAKAWillArnett.Jump();
+            GobBluthAKAWillArnett.Attack();
+            GobBluthAKAWillArnett.Run();
             GobBluthAKAWillArnett.SpecialPower(powerGobBluth);
         }
     }
