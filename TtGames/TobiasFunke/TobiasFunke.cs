@@ -2,7 +2,14 @@
 
 namespace TtGames.TobiasFunke
 {
-    class TobiasFunke
+    class TobiasFunke : BaseType.BaseType
     {
+        public TobiasFunke() : base("Tobias Funke", false, "Male", 68)
+        { }
+
+        public override void SpecialPower(string power)
+        {
+            base.SpecialPower("Obliviousness");
+        }
     }
 }
